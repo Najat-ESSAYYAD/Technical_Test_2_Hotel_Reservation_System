@@ -1,5 +1,4 @@
-
-Description du projet
+Description du projet 
 Ce projet implémente un système simplifié de réservation d’hôtel en Java.
 Il gère trois entités principales : Room (chambre), User (utilisateur) et Booking (réservation).
 
