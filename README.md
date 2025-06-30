@@ -30,11 +30,11 @@ Cela crée un service aux responsabilités multiples, ce qui rend le code :
 ###  Bonne pratique :  
 Il vaut mieux appliquer le principe de responsabilité unique (Single Responsibility Principle) en séparant la logique en plusieurs services spécialisés, par exemple :  
 
-UserService pour gérer les utilisateurs,
+-  UserService pour gérer les utilisateurs,
 
-RoomService pour gérer les chambres,
+-  RoomService pour gérer les chambres,
 
-BookingService pour gérer les réservations.  
+-  BookingService pour gérer les réservations.  
 
 Cela améliore la clarté, facilite les tests unitaires, et rend le code plus évolutif.  
   
