@@ -42,12 +42,15 @@ Cela améliore la clarté, facilite les tests unitaires, et rend le code plus é
 
 Dans cette conception, on empêche que la modification d’une chambre (ex: son prix) modifie rétroactivement les réservations déjà faites, pour garder la cohérence historique.  
 
-Autre approche possible :  
+##  Autres approches possibles :
+### Système de versioning des chambres :
 
-Utiliser un système de versioning des chambres :  
+Chaque modification crée une nouvelle version de la chambre (ex : même numéro mais version différente).
 
-Chaque modification crée une nouvelle version de la chambre (ex: même numéro mais version différente).  
+Les anciennes réservations restent liées à la version de chambre utilisée au moment de la réservation, garantissant ainsi l’intégrité des données historiques.
 
-Les anciennes réservations restent liées à la version de chambre utilisée au moment de la réservation, ce qui garantit l’intégrité des données historiques.  
+### Chambre immuable :
 
-Ou considérer la chambre comme une entité immuable : au lieu de modifier une chambre existante, on crée une nouvelle chambre (avec un nouvel identifiant) pour les changements.  
+Considérer la chambre comme une entité immuable.
+
+Au lieu de modifier une chambre existante, créer une nouvelle chambre avec un nouvel identifiant pour chaque changement. 
