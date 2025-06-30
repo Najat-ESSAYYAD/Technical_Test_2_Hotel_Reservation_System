@@ -21,11 +21,11 @@ Affichage de toutes les chambres, réservations et utilisateurs.
 Mettre toutes les fonctions dans un seul service (monolithe) n’est généralement pas recommandé, surtout pour des projets qui peuvent évoluer ou devenir complexes.
 Cela crée un service aux responsabilités multiples, ce qui rend le code :  
 
-Plus difficile à maintenir, comprendre et tester (manque de séparation des responsabilités).  
+-  Plus difficile à maintenir, comprendre et tester (manque de séparation des responsabilités).  
 
-Plus fragile, car un changement dans une fonctionnalité peut impacter d’autres parties.  
+-  Plus fragile, car un changement dans une fonctionnalité peut impacter d’autres parties.  
 
-Moins réutilisable et moins modulaire.  
+-  Moins réutilisable et moins modulaire.  
 
 ###  Bonne pratique :  
 Il vaut mieux appliquer le principe de responsabilité unique (Single Responsibility Principle) en séparant la logique en plusieurs services spécialisés, par exemple :  
