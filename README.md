@@ -1,4 +1,3 @@
-Système simplifié de réservation d'hôtel (Technical Test 2)
 
 Description du projet
 Ce projet implémente un système simplifié de réservation d’hôtel en Java.
