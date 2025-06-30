@@ -1,17 +1,17 @@
 Système simplifié de réservation d'hôtel (Technical Test 2)
 
-Description du projet : 
-Ce projet implémente un système simplifié de réservation d’hôtel en Java.
-Il gère trois entités principales : Room (chambre), User (utilisateur) et Booking (réservation).
+Description du projet :   
+Ce projet implémente un système simplifié de réservation d’hôtel en Java.  
+Il gère trois entités principales : Room (chambre), User (utilisateur) et Booking (réservation).  
 
-Les fonctionnalités principales sont :
+Les fonctionnalités principales sont :  
 
-Création de chambres avec un type et un prix par nuit.
+Création de chambres avec un type et un prix par nuit.  
 
-Création d’utilisateurs avec un solde.
+Création d’utilisateurs avec un solde.  
 
-Réservation d’une chambre pour une période donnée, sous condition de disponibilité et de solde suffisant.
+Réservation d’une chambre pour une période donnée, sous condition de disponibilité et de solde suffisant.  
 
-Affichage de toutes les chambres, réservations et utilisateurs.
-printAll(...) et printAllUsers(...) : 
+Affichage de toutes les chambres, réservations et utilisateurs.  
+printAll(...) et printAllUsers(...) :   
 ![PrintAll result](screenshots.png)
