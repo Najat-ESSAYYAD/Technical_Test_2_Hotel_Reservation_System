@@ -39,7 +39,7 @@ BookingService pour gérer les réservations.
 Cela améliore la clarté, facilite les tests unitaires, et rend le code plus évolutif.  
   
 
-2/ La fonction setRoom(...) ne doit pas impacter les réservations précédentes. Quelle autre approche ? Quelle recommandation ?  
+    2/ La fonction setRoom(...) ne doit pas impacter les réservations précédentes. Quelle autre approche ? Quelle recommandation ?  
 
 Dans cette conception, on empêche que la modification d’une chambre (ex: son prix) modifie rétroactivement les réservations déjà faites, pour garder la cohérence historique.  
 
