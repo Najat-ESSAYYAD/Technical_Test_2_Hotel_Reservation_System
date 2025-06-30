@@ -13,7 +13,7 @@ Création d’utilisateurs avec un solde.
 Réservation d’une chambre pour une période donnée, sous condition de disponibilité et de solde suffisant.  
 
 Affichage de toutes les chambres, réservations et utilisateurs.  
-printAll(...) et printAllUsers(...) :   
+    printAll(...) et printAllUsers(...) :   
 ![PrintAll result](screenshots.png)  
 
 
